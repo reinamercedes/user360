@@ -1,0 +1,37 @@
+/*contact*/
+/*body-bckg*/
+body{
+    background-image: url(../image/large.jpg);
+    background-size: cover;
+}
+h3{
+    margin-top:1px;
+}
+hr{
+    margin-top: 10px;
+}
+/*form-box*/
+.form-box{
+    padding: 0% 5%;
+    border: solid 0.5px silver;
+    border-top:solid 7px #046BB8;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    background-color: white;
+}
+label{
+    text-align:left;
+    font-size:90%;
+}
+.form-info{
+    padding:0%;
+    margin:0% -15%;
+    font-size:70%;
+}
+.form-info p{
+    margin-bottom:1px;
+}
+.bckg-sky{
+    background-color:#046BB8;
+    color:white;
+}

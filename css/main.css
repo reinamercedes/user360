@@ -1,0 +1,293 @@
+
+/*Header*/
+* {
+    font-family: Lato;
+}
+header {
+    background-image: url("../image/large.jpg");
+    background-size: 100% 140%;
+    background-position: 100% -1%;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+	background-repeat: no-repeat;
+	background-blend-mode: color;
+}
+nav {
+    position: fixed;
+    margin-left: 23%;
+    z-index: 3;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover {
+    background-color: rgba(78, 127, 184, 0.40);
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 1.4em;
+}
+header h1 {
+    text-align: center;
+    margin-top: 16%;
+    font-size: 2.5em;
+    margin-bottom: 9%;
+}
+nav img {
+    margin: 9% -57%;
+    width: 40%;
+}
+nav ul {
+    margin-top: 9%;
+    margin-left: -89%;
+}
+.free-try {
+    background-color: rgba(78, 127, 184, 0.89);
+}
+.free-try h2 {
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 8%;
+    font-size: 2em;
+}
+.free-try h3 {
+    font-size: 120%;
+    text-align: right;
+    margin-right: 4%;
+    margin-top: 0%;
+    margin-bottom: 6%;
+}
+.try-button {
+    border: 2px solid white;
+    width: 30%;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+.try-button h4 {
+    font-size: 1.5em;
+}
+.try-button a {
+    text-decoration: none;
+    color: white;
+}
+.try-button:hover {
+    background-color: #4E7EB8;
+}
+/*Header*/
+
+/*Nuestros Servicios*/
+.our-services {
+    border-bottom: 1px solid #ECECEC;
+}
+.our-services h1 {
+    text-align: center;
+    color: #649CEA;
+    font-weight: 100;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.service-icon {
+    border-radius: 100%;
+    width: 45%;
+    height: 157px;
+    margin-left: 27%;
+    text-align: center;
+    padding-top: 16%;
+    box-shadow: -2px 3px 8px #ECECEC;
+}
+.service-icon span {
+    color: #649CEA;
+    font-size: 2.5em;
+}
+.service-box h2 {
+    text-align: center;
+    color: #486682;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-top: 10%;
+}
+.service-box p {
+    text-align: center;
+    margin-top: 6%;
+    font-size: 1em;
+    margin-bottom: 30%;
+}
+.separador {
+    position: relative;
+    top: 48px;
+    text-align: center;
+}
+/*Nuestros Servicios*/
+
+/*Ejemplo User Testing 360°*/
+.ejemplo {
+    padding: 10% 0 5%;
+    border-bottom: 1px solid #ECECEC;
+}
+.ejemplo span img {
+    width: 30%;
+}
+.ejemplo h2 {
+    color: #5191E3;
+    font-size: 2.2em;
+    text-align: center;
+}
+.ejemplo p {
+    font-size: 15px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.ejemplo a:hover {
+    font-size: 1.5em;
+}
+.flecha {
+    margin-left: 40%;
+}
+.ejemplo iframe {
+    margin-top: 4%;
+}
+/*Ejemplo User Testing 360°*/
+
+/*Como lo obtengo?*/
+.want-it {
+    border-bottom: 1px solid #ECECEC;
+}
+.laptop-girl {
+    background-image: url("../image/sec-2.jpg");
+    background-size: 138% 100%;
+    background-position: 0% 100%;
+    background-color: rgba(0, 0, 0, .6);
+	background-repeat: no-repeat;
+	background-blend-mode: color;
+	width: 100%;
+	padding: 50%;
+	padding-bottom: 43.5%;
+}
+.user-instruction {
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.user-instruction h2 {
+    margin-bottom: 2%;
+}
+.user-instruction h4 {
+    color: #6A8DD2;
+    font-size: 1.2em;
+    margin-top: 7%;
+}
+.user-instruction p {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.user-instruction ul {
+    margin-left: -4%;
+    font-weight: 600;
+    line-height: 2;
+}
+.separador-centro {
+    position: relative;
+    left: -10.5%;
+    top: 2.6em;
+}
+.user-instruction div {
+    background-color: #549EF4;
+    border-radius: 100%;
+    width: 10%;
+    padding: 2%;
+    position: absolute;
+    left: -5%;
+}
+.pencil {
+    top: 18%;
+}
+.tools {
+    top: 41%;
+}
+.user-instruction span {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+/*Como lo obtengo?*/
+
+/*Por que usarlo?*/
+.porque {
+    padding: 10% 0 13%;
+}
+.banner-porque {
+    width:110%;
+}
+.porque span img {
+    width: 50%;   
+}
+.porque h2 {
+    color: #5191E3;
+    font-size: 2.5em;
+    text-align: center;
+}
+.porque p {
+    font-size: 1em;
+}
+.porque ul {
+    line-height: 2.5;
+    font-size: 1em;
+}
+/*Por que usarlo?*/
+
+/*free-try*/
+.free-bottom h2 {
+    color: white;
+    text-align: left;
+    margin-left: 25%;
+    font-size: 1.8em;
+}
+.free-bottom h3 {
+    color: white;
+    text-align: left;
+    margin-left: 26%;
+}
+.try-button-bottom {
+    margin-left: 27%;
+    width: 40%;
+}
+.try-button-bottom a {
+    font-size: 1.3em;
+}
+/*free-try*/
+/*footer*/
+footer {
+    background-color: #2A3541;
+    color: white;
+}
+.contactanos {
+    padding: 7% 5% 0;
+    font-size: 130%;
+}
+.social-box{
+    margin: 8%;
+    margin-left: 0;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    text-align: right;
+}
+icon {
+    color: #5191E3;
+    font-size: 280%;
+    margin: 2%;
+    margin-bottom: 1%;
+}
+.mgr-4{
+        margin-right: 4%;
+}
+.social-box p {
+    text-align: right;
+}
+/*footer*/
